@@ -1,0 +1,86 @@
+h1,
+p {
+  font-family: Lato;
+}
+.app {
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.time {
+  font-size: 3rem;
+  padding: 2rem;
+}
+.button {
+  padding: 0.5rem 4rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-style: groove;
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary-inactive {
+  padding: 1rem 8rem;
+  margin: 0.4rem;
+  border-radius: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-style: groove;
+}
+.button-primary-active {
+  padding: 1rem 8rem;
+  margin: 0.4rem;
+  border-radius: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  border-style: groove;
+}
+
+.button-primary:hover {
+  background-color: #b600009a;
+  border: 1px solid #1b1f2b;
+}
+
+.button-primary-active {
+  background-color: #6d0000d2;
+  border: 1px solid #000000;
+  color: white;
+}
+
+.button-primary-inactive {
+  background-color: #0d2f5c;
+  border: 1px solid #000000;
+  color: white;
+}
+.buttonCircle {
+  padding: 1em 6rem;
+  margin-top: 2rem;
+  border-radius: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-style: groove;
+  background-color: #2e2e2e;
+  color: whitesmoke;
+}
+.records {
+  max-height: 200px;
+  max-width: 200px;
+  overflow-y: scroll;
+}
